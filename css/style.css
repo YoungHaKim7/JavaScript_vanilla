@@ -1,3 +1,66 @@
 .hidden {
   display: none;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-size: cover;
+}
+
+#bgImage {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+#clock {
+  padding: 5px 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+#greeting {
+  padding: 5px 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+#todo-form {
+  padding: 5px 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+
+#todo-list {
+  padding: 5px 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+
+#weather {
+  padding: 5px 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+#quote {
+  padding: 5px 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 4%;
+  left: 1%;
+}
