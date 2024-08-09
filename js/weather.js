@@ -1,9 +1,4 @@
-
-
-const API_KEY = "94b3980686a01ce18ddc81a3408aa336";
-
-
-
+const API_KEY = "여기에 API키를 넣어주세요";
 
 function onGeoOk(position) {
     const lat = position.coords.latitude;
@@ -18,7 +13,6 @@ function onGeoOk(position) {
         weather.innerText = `${data.weather[0].main} / ${data.main.temp} ℃`;
     });
 }
-
 
 function onGeoError() {
     alert("Can't find you. No weather for you.");
